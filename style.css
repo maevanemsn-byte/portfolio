@@ -720,6 +720,14 @@ section h2 {
   color: var(--blanc);
 }
 
+#contact a,
+#contact a:visited,
+#contact a:hover,
+#contact a:focus {
+  color: var(--blanc);
+  text-decoration: underline;
+}
+
 /* --- Responsive : mobile --- */
 @media (max-width: 700px) {
   .hero {
